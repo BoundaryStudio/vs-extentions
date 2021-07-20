@@ -1,0 +1,41 @@
+{
+  "name": "essential-extentions-pack",
+  "displayName": "Essential Pack",
+  "description": "This Pack Serves as the Basic Pack",
+  "version": "0.3.0",
+  "publisher": "boundarystudio",
+  "engines": {
+    "vscode": "^1.18.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "vss-web-extension-sdk": "^5.141.0"
+  },
+  "icon": "icon.png",
+  "author": {
+    "name": "Ashfahan",
+    "email": "ashfahan@BoundaryStudio.com"
+  },
+  "repository": "https://github.com/BoundaryStudio/vs-extentions.git",
+  "scripts": {
+    "build": "vsce package"
+  },
+  "keywords": [
+    "Basic",
+    "Extentions",
+    "Pack"
+  ],
+  "extensionPack": [
+    "CoenraadS.bracket-pair-colorizer",
+    "tombonnike.vscode-status-bar-format-toggle",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "christian-kohler.path-intellisense",
+    "gruntfuggly.todo-tree",
+    "albymor.increment-selection",
+    "ban.spellright"
+  ]
+}

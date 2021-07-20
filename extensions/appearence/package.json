@@ -1,0 +1,38 @@
+{
+  "name": "appearence-extentions-pack",
+  "displayName": "Appearence Pack",
+  "description": "This Pack is For Appearence Fetures",
+  "version": "0.1.1",
+  "publisher": "boundarystudio",
+  "engines": {
+    "vscode": "^1.18.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "vss-web-extension-sdk": "^5.141.0"
+  },
+  "icon": "icon.png",
+  "author": {
+    "name": "Ashfahan",
+    "email": "ashfahan@BoundaryStudio.com"
+  },
+  "repository": "https://github.com/BoundaryStudio/vs-extentions.git",
+  "scripts": {
+    "build": "vsce package"
+  },
+  "keywords": [
+    "Appearence",
+    "Extentions",
+    "Pack"
+  ],
+  "extensionPack": [
+    "miguelsolorio.fluent-icons",
+    "robertohuertasm.vscode-icons",
+    "pkief.material-icon-theme",
+    "brittanychiang.halcyon-vscode",
+    "johnpapa.winteriscoming"
+  ]
+}

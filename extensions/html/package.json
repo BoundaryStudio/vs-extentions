@@ -1,0 +1,44 @@
+{
+  "name": "html-extentions-pack",
+  "displayName": "HTML Pack",
+  "description": "This Pack is For HTML Development",
+  "version": "0.3.0",
+  "publisher": "boundarystudio",
+  "engines": {
+    "vscode": "^1.18.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "vss-web-extension-sdk": "^5.141.0"
+  },
+  "icon": "icon.png",
+  "author": {
+    "name": "Ashfahan",
+    "email": "ashfahan@BoundaryStudio.com"
+  },
+  "repository": "https://github.com/BoundaryStudio/vs-extentions.git",
+  "scripts": {
+    "build": "vsce package"
+  },
+  "keywords": [
+    "HTML",
+    "Extentions",
+    "Pack"
+  ],
+  "extensionPack": [
+    "abusaidm.html-snippets",
+    "mrmlnc.vscode-scss",
+    "mrmlnc.vscode-doiuse",
+    "mrmlnc.vscode-attrs-sorter",
+    "pranaygp.vscode-css-peek",
+    "ritwickdey.live-sass",
+    "zignd.html-css-class-completion",
+    "mkaufman.HTMLHint",
+    "ritwickdey.LiveServer",
+    "HookyQR.minify",
+    "jock.svg"
+  ]
+}

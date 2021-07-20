@@ -1,0 +1,13 @@
+{
+  "name": "vscode-extentionpack",
+  "private": "true",
+  "scripts": {
+    "postinstall": "lerna bootstrap",
+    "clean": "rimraf extensions/*/*.vsix",
+    "build": "yarn clean && lerna run build --parallel"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "rimraf": "^3.0.2"
+  }
+}

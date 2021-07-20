@@ -1,0 +1,41 @@
+{
+  "name": "csharp-extentions-pack",
+  "displayName": "Csharp Pack",
+  "description": "This Pack is For C# Development",
+  "version": "0.3.0",
+  "publisher": "boundarystudio",
+  "engines": {
+    "vscode": "^1.18.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "vss-web-extension-sdk": "^5.141.0"
+  },
+  "icon": "icon.png",
+  "author": {
+    "name": "Ashfahan",
+    "email": "ashfahan@BoundaryStudio.com"
+  },
+  "repository": "https://github.com/BoundaryStudio/vs-extentions.git",
+  "scripts": {
+    "build": "vsce package"
+  },
+  "keywords": [
+    "Csharp",
+    "C#",
+    "Extentions",
+    "Pack"
+  ],
+  "extensionPack": [
+    "slevesque.shader",
+    "kleber-swf.unity-code-snippets",
+    "Unity.unity-debug",
+    "jorgeserrano.vscode-csharp-snippets",
+    "ms-vscode.csharp",
+    "amlovey.shaderlabvscodefree",
+    "jchannon.csharpextensions"
+  ]
+}

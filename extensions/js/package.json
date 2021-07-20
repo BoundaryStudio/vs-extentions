@@ -1,0 +1,40 @@
+{
+  "name": "js-extentions-pack",
+  "displayName": "JS Pack",
+  "description": "This Pack is For JS Development",
+  "version": "0.3.0",
+  "publisher": "boundarystudio",
+  "engines": {
+    "vscode": "^1.18.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "vss-web-extension-sdk": "^5.141.0"
+  },
+  "icon": "icon.png",
+  "author": {
+    "name": "Ashfahan",
+    "email": "ashfahan@BoundaryStudio.com"
+  },
+  "repository": "https://github.com/BoundaryStudio/vs-extentions.git",
+  "scripts": {
+    "build": "vsce package"
+  },
+  "keywords": [
+    "JS",
+    "Extentions",
+    "Pack"
+  ],
+  "extensionPack": [
+    "johnpapa.angular2",
+    "pflannery.vscode-versionlens",
+    "kisstkondoros.vscode-codemetrics",
+    "dsznajder.es7-react-js-snippets",
+    "msjsdiag.debugger-for-chrome",
+    "donjayamanne.jquerysnippets",
+    "xabikos.javascriptsnippets"
+  ]
+}
